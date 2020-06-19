@@ -1,4 +1,12 @@
 /*Header + Nav*/
+/*@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}*/
 #myImage {
     border-radius: 100%;
     display: flex;
@@ -38,7 +46,7 @@ h1, h2 {
 .instagram:hover, .twitter:hover, .linkedin:hover, .facebook:hover, .github:hover{
     transform: scale(1.3);
     transition: transform 0.2s;
-    filter: blur(150%);
+    filter: blur(15%);
 }
 /*Begin of my section*/
 .mySection {
@@ -67,7 +75,7 @@ h1, h2 {
 .myProfile:hover, .portfolio:hover, .Curiculum:hover, .Download:hover{
     transform: scale(1.2);
     cursor: pointer;
-    filter: grayscale(0.7);
+    filter: brightness(1.16);
     transition: transform .3s;
 }
 .figCaption1{
